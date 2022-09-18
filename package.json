@@ -1,18 +1,18 @@
 {
-  "name": "@cherry-very/eslint-config",
-  "version": "1.0.2",
+  "name": "@cherry-very/eslint-config-vue",
+  "version": "1.0.0",
   "description": "Shared eslint config",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cherry-Very/eslint-config.git"
+    "url": "git+https://github.com/Cherry-Very/eslint-config-vue.git"
   },
   "author": "Bohdan Konechnyi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cherry-Very/eslint-config/issues"
+    "url": "https://github.com/Cherry-Very/eslint-config-vue/issues"
   },
-  "homepage": "https://github.com/Cherry-Very/eslint-config#readme",
+  "homepage": "https://github.com/Cherry-Very/eslint-config-vue#readme",
   "main": "index.js",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.37.0",
