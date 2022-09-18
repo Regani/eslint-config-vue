@@ -2,24 +2,34 @@
 module.exports = {
     root: true,
     extends: [
-        'plugin:vue/vue3-essential',
+        'plugin:@typescript-eslint/recommended',
         'plugin:vue/vue3-strongly-recommended',
-        'plugin:vue/vue3-recommended',
-        '@vue/standard',
-        '@vue/typescript/recommended'
+        '@vue/typescript/recommended',
+        'eslint:recommended'
     ],
     rules: {
-        'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+        'vue/component-api-style': [ 'error',
+            [ 'script-setup', 'composition' ]
+        ],
+        '@typescript-eslint/ban-ts-comment': [ 'error' ],
+        '@typescript-eslint/no-unused-vars': 'error',
+        'no-unused-vars': 'off',
+        'no-console': 'error',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'vue/component-tags-order': ['error', {order: ['template', 'script', 'style']}],
+        'semi': [ 'error', 'never' ],
+        'quotes': [ 'error', 'single' ],
+        'object-curly-spacing': [ 'error', 'always' ],
+        'array-bracket-spacing': [ 'error', 'always' ],
+        'space-before-function-paren': [ 'error', 'always' ],
+        'vue/component-tags-order': [ 'error', { order: [ 'template', 'script', 'style' ] } ],
         'vue/no-v-html': 0,
         '@typescript-eslint/no-var-requires': 0,
-        'vue/html-indent': ['error', 4],
-        'vue/script-indent': ['error', 4],
-        'indent': ['error', 4],
+        'vue/html-indent': [ 'error', 4 ],
+        'vue/script-indent': [ 'error', 4 ],
+        'indent': [ 'error', 4 ],
         'vue/v-on-event-hyphenation': 'off',
         'vue/multi-word-component-names': 'off',
-        'vue/html-self-closing': ['error', {
+        'vue/html-self-closing': [ 'error', {
             'html': {
                 'void': 'never',
                 'normal': 'always',
@@ -27,15 +37,15 @@ module.exports = {
             },
             'svg': 'always',
             'math': 'always'
-        }],
-        'vue/attributes-order': ['error', {
+        } ],
+        'vue/attributes-order': [ 'error', {
             'order': [
                 'DEFINITION',
                 'LIST_RENDERING',
                 'CONDITIONALS',
                 'RENDER_MODIFIERS',
                 'GLOBAL',
-                ['UNIQUE', 'SLOT'],
+                [ 'UNIQUE', 'SLOT' ],
                 'TWO_WAY_BINDING',
                 'OTHER_DIRECTIVES',
                 'OTHER_ATTR',
@@ -43,7 +53,7 @@ module.exports = {
                 'CONTENT'
             ],
             'alphabetical': false
-        }]
+        } ]
     },
     env: {
         'vue/setup-compiler-macros': true,
