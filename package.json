@@ -1,0 +1,17 @@
+{
+  "name": "@cherry-very/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared eslint config",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherry-Very/eslint-config.git"
+  },
+  "author": "Bohdan Konechnyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cherry-Very/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Cherry-Very/eslint-config#readme",
+  "main": "index.js"
+}
