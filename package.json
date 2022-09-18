@@ -1,6 +1,6 @@
 {
   "name": "@cherry-very/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared eslint config",
   "private": false,
   "repository": {
@@ -13,5 +13,12 @@
     "url": "https://github.com/Cherry-Very/eslint-config/issues"
   },
   "homepage": "https://github.com/Cherry-Very/eslint-config#readme",
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^8.0.1",
+    "@vue/eslint-config-typescript": "^11.0.1",
+    "eslint": "^8.23.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^9.5.1"
+  }
 }
