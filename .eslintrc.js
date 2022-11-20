@@ -25,8 +25,8 @@ module.exports = {
         'vue/no-v-html': 0,
         '@typescript-eslint/no-var-requires': 0,
         'vue/html-indent': [ 'error', 4 ],
-        'vue/script-indent': [ 'error', 4 ],
-        'indent': [ 'error', 4 ],
+        'vue/script-indent': [ 'error', 4, { 'switchCase': 1 } ],
+        'indent': [ 'error', 4, { 'SwitchCase': 1 } ],
         'vue/v-on-event-hyphenation': 'off',
         'vue/multi-word-component-names': 'off',
         'vue/html-self-closing': [ 'error', {
