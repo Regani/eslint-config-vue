@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@cherry-very/eslint-config-ts@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@cherry-very/eslint-config-ts/-/eslint-config-ts-1.0.5.tgz#1d9a6c5da1556f66704eb3d6f8518bd0d906ed06"
-  integrity sha512-033IpT+C3wdxotjSz9Go0WBGYbpUOT77X1MPKDMFp7S253qVxGkUjwhM7/YEZmewn9UzDGEO3hP9p8jno7fUHw==
-
 "@eslint/eslintrc@^1.4.1":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.4.1.tgz#af58772019a2d271b7e2d4c23ff4ddcba3ccfb3e"

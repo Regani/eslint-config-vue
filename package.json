@@ -1,6 +1,6 @@
 {
   "name": "@cherry-very/eslint-config-vue",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Shared eslint config",
   "private": false,
   "publishConfig": {
@@ -26,10 +26,10 @@
     "typescript": "^4.8.3"
   },
   "peerDependencies": {
+    "@cherry-very/eslint-config-ts": "^1.0.6",
     "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=5",
     "@vue/eslint-config-typescript": ">=11",
-    "@cherry-very/eslint-config-ts": "^1.0.5",
     "eslint": ">=8",
     "eslint-plugin-vue": "^9.0.0"
   }
