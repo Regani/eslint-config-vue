@@ -5,41 +5,30 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:vue/vue3-strongly-recommended',
         '@vue/typescript/recommended',
-        'eslint:recommended'
+        'eslint:recommended',
+        '@cherry-very/eslint-config-ts'
     ],
     rules: {
         'vue/component-api-style': [ 'error',
             [ 'script-setup', 'composition' ]
         ],
-        '@typescript-eslint/ban-ts-comment': [ 'error' ],
-        '@typescript-eslint/no-unused-vars': 'error',
-        'no-unused-vars': 'off',
-        'no-console': 'error',
-        'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'semi': [ 'error', 'never' ],
-        'quotes': [ 'error', 'single' ],
-        'object-curly-spacing': [ 'error', 'always' ],
-        'array-bracket-spacing': [ 'error', 'always' ],
-        'space-before-function-paren': [ 'error', 'always' ],
         'vue/component-tags-order': [ 'error', { order: [ 'template', 'script', 'style' ] } ],
         'vue/no-v-html': 0,
-        '@typescript-eslint/no-var-requires': 0,
         'vue/html-indent': [ 'error', 4 ],
-        'vue/script-indent': [ 'error', 4, { 'switchCase': 1 } ],
-        'indent': [ 'error', 4, { 'SwitchCase': 1 } ],
+        'vue/script-indent': [ 'error', 4, { switchCase: 1 } ],
         'vue/v-on-event-hyphenation': 'off',
         'vue/multi-word-component-names': 'off',
         'vue/html-self-closing': [ 'error', {
-            'html': {
-                'void': 'never',
-                'normal': 'always',
-                'component': 'always'
+            html: {
+                void: 'never',
+                normal: 'always',
+                component: 'always'
             },
-            'svg': 'always',
-            'math': 'always'
+            svg: 'always',
+            math: 'always'
         } ],
         'vue/attributes-order': [ 'error', {
-            'order': [
+            order: [
                 'DEFINITION',
                 'LIST_RENDERING',
                 'CONDITIONALS',
@@ -52,7 +41,7 @@ module.exports = {
                 'EVENTS',
                 'CONTENT'
             ],
-            'alphabetical': false
+            alphabetical: false
         } ]
     },
     env: {
