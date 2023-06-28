@@ -1,5 +1,5 @@
 {
-  "name": "@cherry-very/eslint-config-vue",
+  "name": "regani-eslint-config-vue",
   "version": "1.0.17",
   "description": "Shared eslint config",
   "private": false,
@@ -8,29 +8,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cherry-Very/eslint-config-vue.git"
+    "url": "git+https://github.com/Regani/eslint-config-vue.git"
   },
-  "author": "Bohdan Konechnyi",
+  "author": "Bohdan Konechrenyi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cherry-Very/eslint-config-vue/issues"
+    "url": "https://github.com/Regani/eslint-config-vue/issues"
   },
-  "homepage": "https://github.com/Cherry-Very/eslint-config-vue#readme",
+  "homepage": "https://github.com/Regani/eslint-config-vue#readme",
   "main": "index.js",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.49.0",
-    "@typescript-eslint/parser": "5.49.0",
-    "@vue/eslint-config-typescript": "^11.0.1",
-    "eslint": "8.32.0",
-    "eslint-plugin-vue": "9.9.0",
-    "typescript": "^4.8.3"
+    "@typescript-eslint/eslint-plugin": "5.60.1",
+    "@typescript-eslint/parser": "5.60.1",
+    "@vue/eslint-config-typescript": "11.0.3",
+    "eslint": "8.43.0",
+    "eslint-plugin-vue": "9.15.1",
+    "typescript": "5.1.5"
   },
   "peerDependencies": {
-    "@cherry-very/eslint-config-ts": "^1.0.8",
     "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=5",
     "@vue/eslint-config-typescript": ">=11",
     "eslint": ">=8",
-    "eslint-plugin-vue": "^9.0.0"
+    "eslint-plugin-vue": "^9.0.0",
+    "regani-eslint-config-ts": "^1.0.8"
   }
 }
