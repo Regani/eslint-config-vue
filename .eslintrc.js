@@ -6,7 +6,7 @@ module.exports = {
         'plugin:vue/vue3-strongly-recommended',
         '@vue/typescript/recommended',
         'eslint:recommended',
-        'regani-eslint-config-ts'
+        'regani-ts'
     ],
     rules: {
         'vue/component-api-style': [ 'error',

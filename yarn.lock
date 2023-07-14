@@ -319,6 +319,11 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
+eslint-config-regani-ts@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/eslint-config-regani-ts/-/eslint-config-regani-ts-1.0.10.tgz#9c5dd31021f9eccbcb32e69a91dd5b190c91d642"
+  integrity sha512-NPriKt8t1C17fdW3HzKMPEuq+wKhgm9u5Yb5BWvvdVeTGIEnk0plGunP1W1MKpdmZ9grGJCbMMG1QcplZYTM3Q==
+
 eslint-plugin-vue@9.15.1:
   version "9.15.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.15.1.tgz#3c09e0edab444b5d4d9239a12a645a0e2e2ea5be"
@@ -834,11 +839,6 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
-
-regani-eslint-config-ts@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/regani-eslint-config-ts/-/regani-eslint-config-ts-1.0.8.tgz#336f18cc6df458dfa1b7dca2e029fdfdff93a7cf"
-  integrity sha512-lNHwaC1eVQTUTHjSkCM4UyqU8FfmWxkamW8K4UrDNN9c4ZF6dRbw+uZSecmGuiaLZDbYI6Z9okRUJdlKYp9wzA==
 
 resolve-from@^4.0.0:
   version "4.0.0"

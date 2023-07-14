@@ -1,7 +1,7 @@
 {
-  "name": "regani-eslint-config-vue",
-  "version": "1.0.17",
-  "description": "Shared eslint config",
+  "name": "eslint-config-regani-vue",
+  "version": "1.0.18",
+  "description": "Shared vue eslint config",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Regani/eslint-config-vue.git"
   },
-  "author": "Bohdan Konechrenyi",
+  "author": "Bohdan Konechnyi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Regani/eslint-config-vue/issues"
@@ -30,7 +30,9 @@
     "@typescript-eslint/parser": ">=5",
     "@vue/eslint-config-typescript": ">=11",
     "eslint": ">=8",
-    "eslint-plugin-vue": "^9.0.0",
-    "regani-eslint-config-ts": "^1.0.8"
+    "eslint-plugin-vue": "^9.0.0"
+  },
+  "dependencies": {
+    "eslint-config-regani-ts": "^1.0.10"
   }
 }
