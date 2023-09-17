@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-regani-vue",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Shared vue eslint config",
   "private": false,
   "publishConfig": {
@@ -33,6 +33,6 @@
     "eslint-plugin-vue": "^9.0.0"
   },
   "dependencies": {
-    "eslint-config-regani-ts": "1.0.12"
+    "eslint-config-regani-ts": "1.0.13"
   }
 }
