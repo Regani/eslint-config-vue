@@ -13,6 +13,6 @@ Usage:
 3. In .eslintrc file do:
 ```json
 {
-   "extends": "regani-eslint-config-vue"
+   "extends": "regani-vue"
 }
 ```
