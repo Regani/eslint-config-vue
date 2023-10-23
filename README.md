@@ -4,11 +4,11 @@ Usage:
 
 1. Install dependency
     ```sh
-    npm i regani-eslint-config-vue --save-dev
+    npm i eslint-config-regani-vue --save-dev
     ``` 
    or
     ```sh 
-    yarn add regani-eslint-config-vue --dev
+    yarn add eslint-config-regani-vue --dev
     ```
 3. In .eslintrc file do:
 ```json
