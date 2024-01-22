@@ -330,10 +330,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-regani-ts@1.0.14:
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/eslint-config-regani-ts/-/eslint-config-regani-ts-1.0.14.tgz#f7419e4f4fc34bca61bf80599c22ecd99ea3c8b5"
-  integrity sha512-AmY8e7bFX8Z41jWPr7jmRZIAnJbbTiI48dIuE8SYG5jIBtncF+peRoPM6L4otx5GEi3Wn4Zytkz/4KdUjbjVhA==
+eslint-config-regani-ts@1.0.15:
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/eslint-config-regani-ts/-/eslint-config-regani-ts-1.0.15.tgz#a2cec1467cc0a039a35edbdb22cbd2d0288054fe"
+  integrity sha512-TAUi195tsNWUa5hOt9pOiK5ts1RDP79xNlmJma/6SIUhtJYHEEEULogBQSc3DYPxV3YioXGXX/5CYQKAU8ksxA==
 
 eslint-plugin-vue@9.17.0:
   version "9.17.0"
